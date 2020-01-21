@@ -1,4 +1,5 @@
 ﻿using System;
+
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Rectangle_Tester
@@ -9,6 +10,7 @@ namespace Rectangle_Tester
         [TestMethod]
         public void TestMethod1()
         {
+            
         }
     }
 }
