@@ -49,16 +49,17 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="PointTester.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RectangleTester.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Rectangle\Rectangle.csproj">
-      <Project>{00ad2228-0cb9-4c4f-bf8a-149d78e5a8e3}</Project>
-      <Name>Rectangle</Name>
+    <ProjectReference Include="..\Assignment2\Assignment2.csproj">
+      <Project>{d209cf8a-d303-4c8f-9d7e-176bb2609a17}</Project>
+      <Name>Assignment2</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
