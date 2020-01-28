@@ -2,12 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-
-namespace Rectangle
+namespace Assignment3
 {
-    class Rectangle
+    class Page
     {
-        private double x, y;
-        
+
     }
 }
