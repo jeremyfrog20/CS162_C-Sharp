@@ -26,7 +26,7 @@ namespace Assignment3
 
             if ((currentPage.getNumLinks() == 0) || (randNum <= 15))
             {
-                int pageNum = rand.Next(0, 3);
+                int pageNum = rand.Next(0,4);
 
                 switch(pageNum)
                 {
@@ -63,7 +63,7 @@ namespace Assignment3
 
         }
 
-        static Random rand = new Random();
+        static Random rand = new Random(DateTime.Now.Second);
         static void Main(string[] args)
         {
             Page page1 = new Page("http://page1");

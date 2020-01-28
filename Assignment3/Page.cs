@@ -8,7 +8,7 @@ namespace Assignment3
     {
         public Page()
         {
-            rand = new Random();
+            rand = new Random(DateTime.Now.Second);
             url = "";
             visits = 0;
             usedLinks = 0;
@@ -17,7 +17,7 @@ namespace Assignment3
 
         public Page(in string url)
         {
-            rand = new Random();
+            rand = new Random(DateTime.Now.Second);
             this.url = url;
             visits = 0;
             usedLinks = 0;
